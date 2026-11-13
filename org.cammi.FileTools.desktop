@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=File Tools
+Comment=Extract PDF pages, batch rename files and resize pictures
+Exec=@tools@
+Icon=system-file-manager
+Categories=Utility;Graphics;
+Terminal=false
+StartupNotify=true

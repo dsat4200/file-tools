@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/jpeg;image/png;image/webp;image/bmp;image/x-ms-bmp;image/tiff;image/gif;image/avif;
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Protocols=file
+X-KDE-Priority=TopLevel
+Actions=ResizePictures;
+
+[Desktop Action ResizePictures]
+Name=Resize Pictures…
+Icon=transform-scale
+Exec=@tools@ resize -- %F

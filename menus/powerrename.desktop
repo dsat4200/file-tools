@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+MimeType=application/octet-stream;inode/directory;
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Protocols=file
+X-KDE-Priority=TopLevel
+Actions=PowerRename;
+
+[Desktop Action PowerRename]
+Name=PowerRename…
+Icon=edit-rename
+Exec=@tools@ rename -- %F
